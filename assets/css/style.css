@@ -1,0 +1,97 @@
+html {
+  scroll-behavior: auto;
+}
+
+* {
+  /* font-family: "Abril Fatface", cursive; */
+}
+
+body {
+  font-family: "EB Garamond", serif;
+}
+
+.top-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: cadetblue;
+  align-items: center;
+  height: 80px;
+}
+
+#name {
+  font-family: abril fatface;
+  font-size: 3em;
+}
+
+.drop-nav {
+  display: flex;
+  /* justify-content: space-evenly; */
+  background-color: red;
+  /* align-items: center; */
+  height: 80px;
+}
+
+.top-nav div {
+  border: 2px solid white;
+  padding: 5px 10px;
+}
+
+.drop-nav {
+  display: none;
+}
+
+.top-nav:hover + .drop-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+}
+
+.headshot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 500px;
+  margin: 40px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid red;
+  margin-bottom: 200px;
+
+  justify-content: space-evenly;
+}
+
+.apps {
+  display: flex;
+  border: 1px solid green;
+  height: 100px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.sites {
+  display: flex;
+  border: 1px solid purple;
+  height: 100px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.contact {
+  border: 1px solid blue;
+  margin-bottom: 200px;
+}
+
+footer {
+  background-color: chocolate;
+}
