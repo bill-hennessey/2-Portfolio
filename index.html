@@ -11,18 +11,28 @@
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Volkhov&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav class="top-nav">
-        <div id="name">Bill Hennessey</div>
-        <div><a href="#portfolio" class="drop">Portfolio</a></div>
-        <div>
-          <a href="https://github.com/bill-hennessey" target="no_blank"
-            >Github</a
-          >
+        <div class="name">
+          <div id="name">Bill Hennessey</div>
         </div>
-        <div><a href="#contact">Contact</a></div>
+        <div class="links">
+          <div><a href="#portfolio" class="drop">Portfolio</a></div>
+          <div>
+            <a href="https://github.com/bill-hennessey" target="no_blank"
+              >Github</a
+            >
+          </div>
+          <div><a href="#contact">Contact</a></div>
+        </div>
       </nav>
       <nav class="drop-nav">
         <div><a href="#">Applications</a></div>
@@ -33,11 +43,16 @@
     <div class="headshot">
       <img
         src="https://lh3.googleusercontent.com/KzsEQ-4t5csb9MMN9gp5D7lV4g25SyuFGiOPwB_OPcj55Y9SDYPxtCfqIJtd7odzXeLRa9eXo2XkDfdhIPM7-yqvD_LbFawmdgOOqWa5RxtB_XxnbL96e0l_SJ7ABN5Vo7VP-jQ01Hy0we7u1HNBQBE6K5nEU48UyzRSEbIt-2HUApyuuORHnc9N4FdJrdDoaL963RGno7VCuTPOUYRabh4eRFbJBtIKKjxSIDoq-srFjNguEkwNFIDhHMkTAMHOaBkAaLt20KGC8DNaE740_-m5igf_H5_E1o0pbilbU98a0ynAW2jU_GRkuzzvU_Y8yh8ewXdR6LEtkKG-lOxs0wzvDePDLXqycU43QpLP2csaaJD_Rr8IdnMAWZvh-WXq8ckDstNCVZ0Jyri0XSkWjUK5u5eSXLmcfNQA5E2wYeOES13JtcLV8yBV5GlD05tyJ76mOgkWa32VOkQEefZWvHDQg_onYApr_MDrYuBdjSfW9qZ0gxIkIJj310sfZZNGuh4rUHDWrGR0TU-QYa4aQXVE17mmfn0wHQJPIDXOgV2XWdPrBy2yYv1XkQsawVAP39N2RE_BLcWWHjxGyLO-B77hwOK38G8368i50aZyZxZ5QUNYGqkJxsJTXgLQIzJAnIAnZDMHW71ECOEPMIOE1KUImrjFZ3_2X2LnSxcm-ZVSUCoE4IAmDIGYhMNmkArqGaUusiAUzkzpw3Sa5xW_I-E=w1274-h956-no?authuser=0"
-        alt="Pug with glasses"
+        alt="Young Bill and Sister"
       />
       <div class="aboutme">
         <h2>About me</h2>
-        <p>This is where I might write something about me.</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, tenetur
+          officiis, ipsam cupiditate rem accusantium, ratione dicta iste nostrum
+          dolore error aspernatur quidem optio officia harum corrupti quos
+          incidunt voluptatibus!
+        </p>
       </div>
     </div>
     <div class="portfolio" id="portfolio">
@@ -47,38 +62,57 @@
           These are some web apps that I've made. Click on them if you wanna see
           them.
         </p>
-        <img
-          src="https://www.thewindowsclub.com/wp-content/uploads/2018/06/Broken-image-icon-in-Chrome.gif"
-          alt="Broken Image"
-          class="icon"
-        />
-        <img
-          src="https://www.thewindowsclub.com/wp-content/uploads/2018/06/Broken-image-icon-in-Chrome.gif"
-          alt="Broken Image"
-          class="icon"
-        />
-        <img
-          src="https://www.thewindowsclub.com/wp-content/uploads/2018/06/Broken-image-icon-in-Chrome.gif"
-          alt="Broken Image"
-          class="icon"
-        />
+        <figure>
+          <img
+            src="https://www.thewindowsclub.com/wp-content/uploads/2018/06/Broken-image-icon-in-Chrome.gif"
+            alt="Broken Image"
+            class="icon"
+          />
+          <figcaption>Clever App #1</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://www.thewindowsclub.com/wp-content/uploads/2018/06/Broken-image-icon-in-Chrome.gif"
+            alt="Broken Image"
+            class="icon"
+          />
+          <figcaption>Clever App #2</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://www.thewindowsclub.com/wp-content/uploads/2018/06/Broken-image-icon-in-Chrome.gif"
+            alt="Broken Image"
+            class="icon"
+          />
+          <figcaption>Clever App #3</figcaption>
+        </figure>
       </div>
       <div class="sites">
-        <img
-          src="https://www.thewindowsclub.com/wp-content/uploads/2018/06/Broken-image-icon-in-Chrome.gif"
-          alt="Broken Image"
-          class="icon"
-        />
-        <img
-          src="https://www.thewindowsclub.com/wp-content/uploads/2018/06/Broken-image-icon-in-Chrome.gif"
-          alt="Broken Image"
-          class="icon"
-        />
-        <img
-          src="https://www.thewindowsclub.com/wp-content/uploads/2018/06/Broken-image-icon-in-Chrome.gif"
-          alt="Broken Image"
-          class="icon"
-        />
+        <figure>
+          <img
+            src="https://www.thewindowsclub.com/wp-content/uploads/2018/06/Broken-image-icon-in-Chrome.gif"
+            alt="Broken Image"
+            class="icon"
+          />
+          <figcaption>Clever Website #1</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://www.thewindowsclub.com/wp-content/uploads/2018/06/Broken-image-icon-in-Chrome.gif"
+            alt="Broken Image"
+            class="icon"
+          />
+          <figcaption>Clever Website #2</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://www.thewindowsclub.com/wp-content/uploads/2018/06/Broken-image-icon-in-Chrome.gif"
+            alt="Broken Image"
+            class="icon"
+          />
+          <figcaption>Clever Website #3</figcaption>
+        </figure>
         <!-- <p>My Websites</p> -->
         <p>
           These are some web sites that I've done. Click on them if you wanna
@@ -88,6 +122,11 @@
     </div>
 
     <div class="contact" id="contact">
+      <p>
+        <a href="mailto: bhennessey1020@gmail.com">bhennessey1020@gmail.com</a>
+      </p>
+      <p>phone: 727-692-9056</p>
+      <p>Contact info will go here.</p>
       <p>Contact info will go here.</p>
     </div>
   </body>
