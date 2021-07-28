@@ -8,24 +8,22 @@ html {
 
 body {
   font-family: "DM Serif Display", serif;
-
   background-color: rgb(82, 106, 161);
 }
 
+/* top nav incuding name and links */
 .top-nav {
   display: flex;
-
   justify-content: space-between;
   background-color: rgb(81, 90, 90);
-
   border: 1px solid black;
-
   align-items: center;
   height: 15%;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
+/* text of Bill Hennessey in the nav */
 #name {
   font-size: 3em;
   font-weight: bolder;
@@ -40,6 +38,7 @@ a {
   padding: 5px 10px;
 }
 
+/* three links in the nav */
 .links {
   display: flex;
   flex-direction: row;
@@ -47,42 +46,40 @@ a {
   justify-content: space-between;
 }
 
-.drop-nav {
-  display: none;
+.link-text {
+  font-size: 18px;
 }
 
+/* entire div including image and about me text */
 .headshot {
   display: flex;
   align-items: center;
-
-  border: 1px solid black;
   margin-top: 10px;
 }
 
 .headshot img {
-  width: 50%;
+  width: 60%;
   margin: 40px;
   opacity: 50%;
 }
 
+/* div specific to the About me text */
 .aboutme {
   margin: 30px 30px 30px 40px;
 }
 
+/* entire block inlucing apps and sites */
 .portfolio {
   display: flex;
   flex-direction: column;
-
-  border: 1px solid black;
   margin-bottom: 200px;
   margin-top: 100px;
-
   justify-content: space-evenly;
 }
 
+/* div specific to app links -- currently populated with placeholders */
 .apps {
   display: flex;
-
   margin-bottom: 100px;
   margin-top: 100px;
   margin-left: 100px;
@@ -92,6 +89,7 @@ a {
   padding-right: 50px;
 }
 
+/* placeholder images for project links */
 .icon {
   height: 100px;
   transition: transform 0.7s;
@@ -105,12 +103,11 @@ a {
   text-align: center;
 }
 
+/* div specific to website links -- currently populated with placeholders */
 .sites {
   display: flex;
   border-top: 1px solid black;
-
   margin-bottom: 100px;
-
   margin-left: 100px;
   align-items: center;
   justify-content: space-between;
@@ -131,20 +128,19 @@ a {
   min-width: 20%;
 }
 
+/* contact info div */
 .contact {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  border: 1px solid black;
-
   margin-bottom: 100px;
   text-align: center;
 }
 
+/* footer dix */
 footer {
   background-color: rgb(81, 90, 90);
   opacity: 80%;
-  height: 100px;
   line-height: 100px;
   text-align: center;
 }
@@ -153,6 +149,11 @@ footer {
   .top-nav {
     flex-wrap: wrap;
   }
+
+  .links {
+    padding-left: 40px;
+  }
+
   .headshot,
   .apps,
   .contact {
