@@ -5,6 +5,9 @@ html {
 * {
   color: whitesmoke;
 }
+#head {
+  max-width: 30%;
+}
 
 body {
   font-family: "DM Serif Display", serif;
